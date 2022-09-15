@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "name": "adventure_sleep_in_bed",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:clock"
+        }
+      ]
+    }
+  ]
+}

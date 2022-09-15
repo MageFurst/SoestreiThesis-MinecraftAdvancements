@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "name": "adventure_shoot_arrow",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stone_sword"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pumpkin"
+        },
+        "title": {
+            "translate": "Snowtroopers"
+        },
+        "description": {
+            "translate": "Using Blocks of Snow and a Pumpkin, summon a Snow Golem"
+        },
+        "frame": "goal"
+    },
+    "parent": "soestreithesis:adventure/summon_iron_golem",
+    "criteria": {
+        "summoned_snow_golem": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:snowman"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:adventure_summon_snow_golem"
+        ]
+    }
+}

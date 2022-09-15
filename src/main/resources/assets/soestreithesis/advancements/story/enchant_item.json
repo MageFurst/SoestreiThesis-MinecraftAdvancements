@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {
+            "translate": "advancements.story.enchant_item.title"
+        },
+        "description": {
+            "translate": "Craft an Enchanting Table and enchant an item"
+        }
+    },
+    "parent": "soestreithesis:story/mine_diamond",
+    "criteria": {
+        "enchanted_item": {
+            "trigger": "minecraft:enchanted_item"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:story_enchant_item"
+        ]
+    }
+}

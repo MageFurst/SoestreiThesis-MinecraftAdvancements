@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "name": "story_iron_tools",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_ingot"
+        }
+      ]
+    }
+  ]
+}

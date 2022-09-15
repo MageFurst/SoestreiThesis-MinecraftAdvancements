@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "title": {
+            "translate": "advancements.story.follow_ender_eye.title"
+        },
+        "description": {
+            "translate": "Craft and Follow an Eye of Ender to its destination"
+        }
+    },
+    "parent": "soestreithesis:story/enter_the_nether",
+    "criteria": {
+        "in_stronghold": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Stronghold"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:story_follow_ender_eye"
+        ]
+    }
+}

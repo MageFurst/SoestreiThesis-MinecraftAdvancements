@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "title": {
+            "translate": "advancements.end.respawn_dragon.title"
+        },
+        "description": {
+            "translate": "Placing End Crystals on the Overworld Portal, re-summon the Dragon"
+        },
+        "frame": "goal"
+    },
+    "parent": "soestreithesis:end/kill_dragon",
+    "criteria": {
+        "summoned_dragon": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "ender_dragon"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:end_respawn_dragon"
+        ]
+    }
+}

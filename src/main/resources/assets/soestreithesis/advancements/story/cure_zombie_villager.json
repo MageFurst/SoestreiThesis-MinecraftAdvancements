@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "title": "Zombie Doctor",
+        "description": "Cure a Zombie Villager, using a Splash Potion of Weakness and a Golden Apple",
+        "frame": "goal"
+    },
+    "parent": "soestreithesis:story/enter_the_nether",
+    "criteria": {
+        "cured_zombie": {
+            "trigger": "minecraft:cured_zombie_villager"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:story_cure_zombie_villager"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "name": "end_dragon_breath",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:ender_chest"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "name": "story_mine_stone",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:leather_helmet"
+        }
+      ]
+    }
+  ]
+}

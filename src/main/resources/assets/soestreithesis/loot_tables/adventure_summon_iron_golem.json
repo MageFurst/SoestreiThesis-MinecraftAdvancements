@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "name": "adventure_summon_iron_golem",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_block"
+        }
+      ]
+    }
+  ]
+}

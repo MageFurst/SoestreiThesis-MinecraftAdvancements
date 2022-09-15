@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {
+            "translate": "advancements.end.elytra.title"
+        },
+        "description": {
+            "translate": "Find an Elytra on an End City ship"
+        },
+        "frame": "goal"
+    },
+    "parent": "soestreithesis:end/find_end_city",
+    "criteria": {
+        "elytra": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:elytra"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:end_elytra"
+        ]
+    }
+}

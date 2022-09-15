@@ -1,0 +1,69 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {
+            "translate": "advancements.story.shiny_gear.title"
+        },
+        "description": {
+            "translate": "Craft any piece of Diamond Armor"
+        }
+    },
+    "parent": "soestreithesis:story/mine_diamond",
+    "criteria": {
+        "diamond_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_helmet"
+                    }
+                ]
+            }
+        },
+        "diamond_chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_chestplate"
+                    }
+                ]
+            }
+        },
+        "diamond_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_leggings"
+                    }
+                ]
+            }
+        },
+        "diamond_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_boots"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "diamond_helmet",
+            "diamond_chestplate",
+            "diamond_leggings",
+            "diamond_boots"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "soestreithesis:story_shiny_gear"
+        ]
+    }
+}

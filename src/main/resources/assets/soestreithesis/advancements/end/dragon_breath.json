@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_breath"
+        },
+        "title": {
+            "translate": "advancements.end.dragon_breath.title"
+        },
+        "description": {
+            "translate": "advancements.end.dragon_breath.description"
+        },
+        "frame": "goal"
+    },
+    "parent": "soestreithesis:end/kill_dragon",
+    "criteria": {
+        "dragon_breath": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dragon_breath"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:end_dragon_breath"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lead"
+        },
+        "title": {
+            "translate": "advancements.husbandry.tame_an_animal.title"
+        },
+        "description": {
+            "translate": "advancements.husbandry.tame_an_animal.description"
+        }
+    },
+    "parent": "soestreithesis:husbandry/root",
+    "rewards": {
+        "loot": [
+            "soestreithesis:husbandry_tame_an_animal"
+        ]
+    },
+    "criteria": {
+        "tamed_animal": {
+            "trigger": "minecraft:tame_animal"
+        }
+    }
+}

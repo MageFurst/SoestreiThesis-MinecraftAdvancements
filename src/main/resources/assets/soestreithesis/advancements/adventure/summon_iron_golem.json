@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pumpkin"
+        },
+        "title": {
+            "translate": "advancements.adventure.summon_iron_golem.title"
+        },
+        "description": {
+            "translate": "Using Blocks of Iron and a Pumpkin, summon an Iron Golem"
+        }
+    },
+    "parent": "soestreithesis:adventure/trade",
+    "criteria": {
+        "summoned_golem": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager_golem"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:adventure_summon_iron_golem"
+        ]
+    }
+}

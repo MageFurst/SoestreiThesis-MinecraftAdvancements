@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "title": {
+            "translate": "advancements.adventure.sniper_duel.title"
+        },
+        "description": {
+            "translate": "Kill a skeleton with an arrow from more than 50 blocks away"
+        },
+        "frame": "challenge"
+    },
+    "parent": "soestreithesis:adventure/shoot_arrow",
+    "rewards": {
+        "experience": 50
+    },
+    "criteria": {
+        "killed_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "is_projectile": true
+                },
+                "entity": {
+                    "type": "skeleton",
+                    "distance": {
+                        "horizontal": {
+                            "min": 50
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:adventure_sniper_duel"
+        ]
+    }
+}

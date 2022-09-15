@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_stone"
+        },
+        "title": {
+            "translate": "advancements.end.root.title"
+        },
+        "description": {
+            "translate": "Enter the End"
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "entered_end": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "the_end"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:end_root"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "name": "story_form_obsidian",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond"
+        }
+      ]
+    }
+  ]
+}

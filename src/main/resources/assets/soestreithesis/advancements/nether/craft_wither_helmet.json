@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "soestreithesis:wither_helmet"
+        },
+        "title": {
+            "translate": "Carved Skull"
+        },
+        "description": {
+            "translate": "Craft a Wither Helm with a Skull and a Leather Cap"
+        },
+        "frame": "goal"
+    },
+    "parent": "soestreithesis:nether/get_wither_skull",
+    "criteria": {
+        "wither_helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "soestreithesis:wither_helmet"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:nether_craft_wither_helmet"
+        ]
+    }
+}

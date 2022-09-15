@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "name": "husbandry_break_diamond_hoe",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond_hoe"
+        }
+      ]
+    }
+  ]
+}

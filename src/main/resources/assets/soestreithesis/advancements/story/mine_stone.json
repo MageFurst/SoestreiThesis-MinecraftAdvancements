@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "title": {
+            "translate": "Mine Stone"
+        },
+        "description": {
+            "translate": "Using a wooden pickaxe, mine stone"
+        }
+    },
+    "parent": "soestreithesis:story/root",
+    "criteria": {
+        "get_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:story_mine_stone"
+        ]
+    }
+}

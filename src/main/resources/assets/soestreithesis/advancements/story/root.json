@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crafting_table"
+    },
+    "title": "Minecraft",
+    "description": "Construct a Crafting Table",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crafting_table"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "soestreithesis:story_root"
+    ]
+  }
+}

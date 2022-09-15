@@ -1,0 +1,16 @@
+[
+{
+  "modid": "soestreithesis",
+  "name": "Salinger Oestreicher - SUNY Oswego Thesis Mod",
+  "description": "This mod was created as part of a SUNY Oswego Honors Thesis.",
+  "version": "1.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Salinger Oestreicher"],
+  "credits": "Salinger Oestreicher, Bastian Tenbergen, James P. Early",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["json-simple-1.1.1.jar"]
+}
+]

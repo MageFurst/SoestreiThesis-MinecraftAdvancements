@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "name": "story_shiny_gear",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:gold_ingot"
+        }
+      ]
+    }
+  ]
+}

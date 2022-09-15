@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "title": {
+            "translate": "Mapmaking"
+        },
+        "description": {
+            "translate": "Trade with a Cartographer Villager for either exclusive map"
+        }
+    },
+    "parent": "soestreithesis:adventure/find_village",
+    "criteria": {
+        "traded_map": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:filled_map"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:adventure_trade_map"
+        ]
+    }
+}

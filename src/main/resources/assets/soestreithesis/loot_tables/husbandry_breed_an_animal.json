@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "name": "husbandry_breed_an_animal",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_horse_armor"
+        }
+      ]
+    }
+  ]
+}

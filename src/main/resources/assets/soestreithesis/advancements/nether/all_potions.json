@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:milk_bucket"
+        },
+        "title": {
+            "translate": "advancements.nether.all_potions.title"
+        },
+        "description": {
+            "translate": "Have every potion effect applied at the same time"
+        },
+        "frame": "challenge"
+    },
+    "parent": "soestreithesis:nether/brew_potion",
+    "rewards": {
+        "experience": 1000,
+        "loot": [
+            "soestreithesis:nether_all_potions"
+        ]
+    },
+    "criteria": {
+        "all_effects": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:speed": {},
+                    "minecraft:slowness": {},
+                    "minecraft:strength": {},
+                    "minecraft:jump_boost": {},
+                    "minecraft:regeneration": {},
+                    "minecraft:fire_resistance": {},
+                    "minecraft:water_breathing": {},
+                    "minecraft:invisibility": {},
+                    "minecraft:night_vision": {},
+                    "minecraft:weakness": {},
+                    "minecraft:poison": {},
+                    "minecraft:levitation": {}
+                }
+            }
+        }
+    }
+}

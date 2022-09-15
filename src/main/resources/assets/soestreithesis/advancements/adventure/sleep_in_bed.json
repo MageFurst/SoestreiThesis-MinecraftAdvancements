@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bed"
+        },
+        "title": {
+            "translate": "advancements.adventure.sleep_in_bed.title"
+        },
+        "description": {
+            "translate": "Change your respawn point by sleeping in a bed"
+        }
+    },
+    "parent": "soestreithesis:adventure/root",
+    "criteria": {
+        "slept_in_bed": {
+            "trigger": "minecraft:slept_in_bed"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:adventure_sleep_in_bed"
+        ]
+    }
+}

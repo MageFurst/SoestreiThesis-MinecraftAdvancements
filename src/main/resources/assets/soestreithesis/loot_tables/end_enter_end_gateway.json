@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "name": "end_enter_end_gateway",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

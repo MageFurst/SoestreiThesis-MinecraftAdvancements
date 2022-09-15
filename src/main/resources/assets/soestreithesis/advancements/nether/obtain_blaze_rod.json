@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blaze_rod"
+        },
+        "title": {
+            "translate": "advancements.nether.obtain_blaze_rod.title"
+        },
+        "description": {
+            "translate": "Kill a Blaze and grab its Blaze Rod"
+        }
+    },
+    "parent": "soestreithesis:nether/find_fortress",
+    "criteria": {
+        "blaze_rod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blaze_rod"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:nether_obtain_blaze_rod"
+        ]
+    }
+}

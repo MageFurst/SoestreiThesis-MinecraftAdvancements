@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:fish",
+            "id": 3
+        },
+        "title": {
+            "translate": "Finding Nemo"
+        },
+        "description": {
+            "translate": "Catch the rare Clownfish!"
+        }
+    },
+    "parent": "soestreithesis:husbandry/craft_fishing_rod",
+    "rewards": {
+        "loot": [
+            "soestreithesis:husbandry_catch_all_fish"
+        ]
+    },
+    "criteria": {
+        "catch_fish": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:fish",
+                        "id": 3
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {
+            "translate": "advancements.story.deflect_arrow.title"
+        },
+        "description": {
+            "translate": "advancements.story.deflect_arrow.description"
+        }
+    },
+    "parent": "soestreithesis:story/obtain_armor",
+    "criteria": {
+        "deflected_projectile": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true
+                    },
+                    "blocked": true
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:story_deflect_arrow"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:purpur_block"
+        },
+        "title": {
+            "translate": "advancements.end.find_end_city.title"
+        },
+        "description": {
+            "translate": "Locate an End City"
+        }
+    },
+    "parent": "soestreithesis:end/enter_end_gateway",
+    "criteria": {
+        "in_city": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "EndCity"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:end_find_end_city"
+        ]
+    }
+}

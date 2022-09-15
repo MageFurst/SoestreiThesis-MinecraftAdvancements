@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "title": {
+            "translate": "advancements.adventure.trade.title"
+        },
+        "description": {
+            "translate": "advancements.adventure.trade.description"
+        }
+    },
+    "parent": "soestreithesis:adventure/find_village",
+    "criteria": {
+        "traded": {
+            "trigger": "minecraft:villager_trade"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:adventure_trade"
+        ]
+    }
+}

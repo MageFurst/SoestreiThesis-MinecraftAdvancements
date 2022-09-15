@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sponge"
+        },
+        "title": {
+            "translate": "Who Lives In A Pineapple?"
+        },
+        "description": {
+            "translate": "Dry out a Sponge by smelting it"
+        },
+        "frame": "goal"
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:adventure_dry_out_sponge"
+        ]
+    },
+    "parent": "soestreithesis:adventure/trade_map",
+    "criteria": {
+        "used_totem": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "item": "minecraft:sponge",
+                    "data": 0
+                    }
+                ]
+            }
+        }
+    }
+}

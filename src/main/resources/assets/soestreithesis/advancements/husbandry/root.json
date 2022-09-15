@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:hay_block"
+        },
+        "title": {
+            "translate": "Farming"
+        },
+        "description": {
+            "translate": "Eat any food item and start your farming adventure"
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png"
+    },
+    "criteria": {
+        "consumed_item": {
+            "trigger": "minecraft:consume_item"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:husbandry_root"
+        ]
+    }
+}

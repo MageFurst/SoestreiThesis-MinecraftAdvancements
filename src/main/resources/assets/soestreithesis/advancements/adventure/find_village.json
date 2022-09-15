@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "title": {
+            "translate": "Finally! Civilization!"
+        },
+        "description": {
+            "translate": "Locate a village"
+        }
+    },
+    "parent": "soestreithesis:adventure/root",
+    "criteria": {
+        "in_village": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Village"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:adventure_find_village"
+        ]
+    }
+}

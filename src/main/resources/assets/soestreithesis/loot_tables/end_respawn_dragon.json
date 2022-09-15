@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "name": "end_respawn_dragon",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:end_crystal"
+        }
+      ]
+    }
+  ]
+}

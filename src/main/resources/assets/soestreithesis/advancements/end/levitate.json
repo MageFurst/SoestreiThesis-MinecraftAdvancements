@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shulker_shell"
+        },
+        "title": {
+            "translate": "advancements.end.levitate.title"
+        },
+        "description": {
+            "translate": "Levitate 50 blocks upward, using Shulkers or Potions"
+        },
+        "frame": "challenge"
+    },
+    "parent": "soestreithesis:end/find_end_city",
+    "rewards": {
+        "loot": [
+            "soestreithesis:end_levitate"
+        ]
+    },
+    "criteria": {
+        "levitated": {
+            "trigger": "minecraft:levitation",
+            "conditions": {
+                "distance": {
+                    "y": {
+                        "min": 50
+                    }
+                }
+            }
+        }
+    }
+}

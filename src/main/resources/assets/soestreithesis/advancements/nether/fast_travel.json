@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "title": {
+            "translate": "advancements.nether.fast_travel.title"
+        },
+        "description": {
+            "translate": "Use the Nether to travel 7000 blocks in the Overworld"
+        },
+        "frame": "challenge"
+    },
+    "parent": "soestreithesis:nether/root",
+    "rewards": {
+        "experience": 100
+    },
+    "criteria": {
+        "travelled": {
+            "trigger": "minecraft:nether_travel",
+            "conditions": {
+                "distance": {
+                    "horizontal": {
+                        "min": 7000
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:nether_fast_travel"
+        ]
+    }
+}

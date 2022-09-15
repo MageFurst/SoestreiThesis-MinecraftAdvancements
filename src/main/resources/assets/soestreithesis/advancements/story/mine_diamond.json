@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "title": {
+            "translate": "advancements.story.mine_diamond.title"
+        },
+        "description": {
+            "translate": "Mine Diamond Ore to acquire Diamonds"
+        }
+    },
+    "parent": "soestreithesis:story/iron_tools",
+    "criteria": {
+        "diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "soestreithesis:story_mine_diamond"
+        ]
+    }
+}

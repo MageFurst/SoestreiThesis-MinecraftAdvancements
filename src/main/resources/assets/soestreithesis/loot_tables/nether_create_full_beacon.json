@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "name": "nether_create_full_beacon",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 64
+            }
+          ]
+        }
+      ]    }
+  ]
+}
