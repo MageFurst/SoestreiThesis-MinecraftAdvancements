@@ -254,7 +254,7 @@ public class AdvancementProgressListener {
             if(player instanceof EntityPlayerMP){
                     BlockPos pos = new BlockPos(player.getPositionVector());
                     World world = player.getEntityWorld();
-                    if (world.isChunkGeneratedAt(pos.getX(),pos.getZ()) && current_player_json != null) {
+                    if (world.isAreaLoaded(pos,10) && current_player_json != null) {
                         removeFromJsonObject("biomes_remaining", world.getBiome(pos).getRegistryName().toString());
                     }
             }
