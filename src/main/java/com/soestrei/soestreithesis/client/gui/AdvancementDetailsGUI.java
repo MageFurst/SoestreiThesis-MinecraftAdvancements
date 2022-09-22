@@ -69,7 +69,7 @@ public class AdvancementDetailsGUI extends GuiScreen {
         int xHalf = (int)(width * .5);
         int yHalf = (int)(height * .5);
 
-        File f = new File((progressfolder + "/" + Minecraft.getMinecraft().player.getUniqueID() + "_progress.json"));
+        File f = new File((progressfolder + "/" + Minecraft.getMinecraft().player.getUniqueID()));
 
         if(f.exists()){
             try{

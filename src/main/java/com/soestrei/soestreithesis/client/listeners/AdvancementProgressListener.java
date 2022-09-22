@@ -180,8 +180,8 @@ public class AdvancementProgressListener {
                     ticks++;
                 }
                 if(ticks == 50){
+                    createJSON();
                     if(current_player_json == null){
-                        createJSON();
                         Minecraft.getMinecraft().player.sendMessage(new TextComponentString("Thank you for testing my thesis! If this is the first time loading this world, press F3+T now, in order for the mod to be fully loaded."));
                     }
                 }
@@ -266,7 +266,8 @@ public class AdvancementProgressListener {
             new File(progressfolder).mkdirs();
         }
 
-        File f = new File((progressfolder + "/progress/" + Minecraft.getMinecraft().player.getUniqueID() + "_progress.json"));
+        File f = new File((progressfolder + Minecraft.getMinecraft().player.getUniqueID()));
+        System.out.println(f.getAbsolutePath());
 
         if (f.exists()) {
             try {
@@ -320,7 +321,7 @@ public class AdvancementProgressListener {
         }
 
         public static void writeJSON (JSONObject json){
-            current_player_json_path = (progressfolder + Minecraft.getMinecraft().player.getUniqueID() + "_progress.json");
+            current_player_json_path = (progressfolder + Minecraft.getMinecraft().player.getUniqueID());
             try (PrintWriter pw = new PrintWriter(new FileWriter(current_player_json_path))) {
                 pw.write(json.toJSONString());
             } catch (Exception e) {
