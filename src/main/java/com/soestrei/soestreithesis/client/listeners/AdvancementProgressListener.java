@@ -181,9 +181,7 @@ public class AdvancementProgressListener {
                 }
                 if(ticks == 50){
                     createJSON();
-                    if(current_player_json == null){
-                        Minecraft.getMinecraft().player.sendMessage(new TextComponentString("Thank you for testing my thesis! If this is the first time loading this world, press F3+T now, in order for the mod to be fully loaded."));
-                    }
+                    Minecraft.getMinecraft().player.sendMessage(new TextComponentString("Thank you for testing my thesis! If this is the first time loading this world, press F3+T now, in order for the mod to be fully loaded."));
                 }
             }
         }
