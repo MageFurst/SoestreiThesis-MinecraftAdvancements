@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "name": "story_lava_bucket",
+      "name": "story_mine_diamond",
       "rolls": 1,
       "entries": [
         {
